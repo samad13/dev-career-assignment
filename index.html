@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Words Scramble App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Words Scramble App</h1>
+    <div id="app">
+        <label for="inputText">Input Text:</label>
+        <textarea id="inputText"></textarea>
+
+        <label for="redactWords">Words to Redact (separated by space):</label>
+        <input type="text" id="redactWords" placeholder="e.g., sensitive words">
+
+        <label for="scrambleCharacter">Scramble Character:</label>
+        <input type="text" id="scrambleCharacter" placeholder="e.g., *">
+
+        <button id="redactButton">Redact Now</button>
+
+        <h2>Redacted Text:</h2>
+        <div id="redactedOutput"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
